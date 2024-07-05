@@ -1,0 +1,82 @@
+body {
+    background-color: #4e54c8;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+.context p{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .context h1 {
+        font-size: 40px;
+    }
+    
+    .context p {
+        font-size: 30px;
+    }
+}
+.gakumasu {
+    width: 800px;
+    height: 600px;
+}
+
+div {
+    text-align: center;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+.context a{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.houkai{
+    width: 800px;
+    height: 450px;
+}
+
+.sdbh{
+    width: 425px;
+    height: 600px;
+}
+
+.monsuto{
+    width: 800px;
+    height: 450px;
+}
