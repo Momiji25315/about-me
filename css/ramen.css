@@ -1,0 +1,102 @@
+body {
+    background-color: #f1c858d0;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.context h1{
+    text-align: center;
+    color: #807d7d;
+    font-size: 75px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+.context p{
+    text-align: center;
+    color: #807d7f;
+    font-size: 50px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .context h1 {
+        font-size: 40px;
+    }
+    
+    .context p {
+        font-size: 30px;
+    }
+}
+
+div {
+    text-align: center;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+.context a{
+    text-align: center;
+    color: #807d7d;
+    font-size: 40px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.context a:hover {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style-type: none;
+}
+
+.syouryu {
+    width: 550px;
+    height: 500px;
+}
+
+.ikkonya{
+    width: 550px;
+    height: 300px;
+}
+
+.tanmen{
+    width: 550px;
+    height: 500px;
+}
+
+.mugen{
+    width: 550px;
+    height: 400px;
+}
+
+.kaminari{
+    width: 550px;
+    height: 400px;
+}
+
+.back a{
+    text-align: center;
+    color: #807d7d;
+    font-size: 50px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.back a:hover {
+    color: rgb(255, 255, 255);
+}
