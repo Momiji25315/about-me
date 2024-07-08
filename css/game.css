@@ -1,5 +1,5 @@
 body {
-    background-color: #4e54c8;
+    background-color: #4ec8b4;
 }
 
 .context {
@@ -39,10 +39,6 @@ body {
         font-size: 30px;
     }
 }
-.gakumasu {
-    width: 800px;
-    height: 600px;
-}
 
 div {
     text-align: center;
@@ -58,25 +54,55 @@ div {
 .context a{
     text-align: center;
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Dela Gothic One", sans-serif;
+}
+
+.context a:hover {
+    color: rgb(105, 105, 105);
 }
 
 li {
     list-style-type: none;
 }
 
+.gakumasu {
+    width: 550px;
+    height: 400px;
+}
+
 .houkai{
-    width: 800px;
-    height: 450px;
+    width: 550px;
+    height: 300px;
 }
 
 .sdbh{
-    width: 425px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
+}
+
+.dokkan{
+    width: 400px;
+    height: 400px;
 }
 
 .monsuto{
-    width: 800px;
-    height: 450px;
+    width: 550px;
+    height: 300px;
+}
+
+.puroseka{
+    width: 550px;
+    height: 375px;
+}
+
+.back a{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.back a:hover {
+    color: rgb(105, 105, 105);
 }
