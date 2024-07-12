@@ -1,16 +1,19 @@
 body {
-    background-color: #ccaa4dd0;
+    background-color: #5f5858;
 }
 
 .context {
     width: 100%;
     position: absolute;
     top: 100px;
+    
 }
 
 .context h1{
+    padding-top: 100px;
+    padding-bottom: 100px;   
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 75px;
     font-family: "Dela Gothic One", sans-serif;
 }
@@ -24,7 +27,7 @@ body {
 
 .context p{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
 }
@@ -52,56 +55,100 @@ div {
 
 .context a{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 40px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
 .context a:hover {
-    color: #807d7d;
+    color: rgb(105, 105, 105);
 }
 
 li {
     list-style-type: none;
 }
 
-.syouryu {
+
+.mizuki {
+    margin: auto;
     width: 550px;
-    height: 500px;
-    margin: 0 auto;
+    height: 345px;
 }
 
-.ikkonya{
+.ena{
+    margin: auto;
+    width: 550px;
+    height: 345px;
+}
+
+.temari{
+    margin: auto;
     width: 550px;
     height: 300px;
-    margin: 0 auto;
 }
 
-.tanmen{
+.kotone{
+    margin: auto;
     width: 550px;
-    height: 500px;
-    margin: 0 auto;
+    height: 300px;
 }
 
-.mugen{
+.hotaru{
+    margin: auto;
     width: 550px;
-    height: 400px;
-    margin: 0 auto;
+    height: 300px;
 }
 
-.kaminari{
-    width: 550px;
-    height: 400px;
-    margin: 0 auto;
+.hu{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.kazusa{
+    margin: auto;
+    width: 300px;
+    height: 425px;
 }
 
 .back a{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
 .back a:hover {
-    color: #807d7d;
+    color: rgb(105, 105, 105);
 }
+
+.akiyama {
+background-color: #DDAACC;
+margin: 0 auto;
+}
+
+.sinonome {
+    background-color: #CCAA88;
+    margin: 0 auto;
+}
+
+.tukimura {
+    background-color: #0c7bbb;
+    margin: 0 auto;
+}
+
+.hujita {
+    background-color: #f8c112;
+    margin: 0 auto;
+}
+
+.samu {
+    background-color: #acd864;
+    margin: 0 auto;
+}
+
+.tao {
+    background-color: #f16236;
+    margin: 0 auto;
+}
+
