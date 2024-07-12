@@ -1,5 +1,5 @@
 body {
-    background-color: #87e06b;
+    background-color: #5f5858;
 }
 
 .context {
@@ -78,15 +78,9 @@ li {
     margin: 0 auto;
 }
 
-.sdbh{
-    width: 350px;
-    height: 500px;
-    margin: 0 auto;
-}
-
 .dokkan{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -110,5 +104,40 @@ li {
 }
 
 .back a:hover {
-    color: rgb(105, 105, 105);
+    color: rgb(33, 33, 33);
+}
+
+ .gakuen {
+    background-color: #f38600;
+    margin: 0 auto;
+    margin-top: 50px;
+       margin-bottom: 50px;
+    }
+    
+.housuta {
+    background-color: #17153d;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    
+.z {
+    background-color: #ff9900;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    
+.sutoraiku {
+    background-color: #f41d1d;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    
+.miku {
+    background-color: #490079;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
