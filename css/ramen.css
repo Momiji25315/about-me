@@ -1,5 +1,5 @@
 body {
-    background-color: #ccaa4dd0;
+    background-color: #5f5858;
 }
 
 .context {
@@ -105,3 +105,38 @@ li {
 .back a:hover {
     color: #807d7d;
 }
+
+.menya {
+    margin: 0 auto;
+    background-color: #c7b24a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+ .ie {
+    background-color: #c7b24a;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+.okamoto {
+    background-color: #c7b24a;
+    margin: 0 auto;
+    margin-top: 50px;
+     margin-bottom: 50px;
+     }
+
+.yume {
+    background-color: #c7b24a;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+.tokyo {
+    background-color: #c7b24a;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }

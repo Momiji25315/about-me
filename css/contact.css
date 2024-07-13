@@ -1,0 +1,37 @@
+/* 大枠ボックス */
+.layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /* 背景画像の読み込み */
+  .layer-bg{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-8xk3SH4pMPzXu29hDnD5-idsh6jYr1iRg&s) no-repeat 0 0;
+    background-size: 100%;
+  }
+  
+  /* 重ねる文字の基本設定 */
+  .layer-txt{
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    color: #fff;
+    letter-spacing: 0.4rem;
+  }
+  
+  /* SP向けの設定 */
+  @media screen and (max-width: 600px) {
+    .layer-txt{
+     font-size: 1.4rem;
+     padding: 4rem 0;
+    }
+  }
+  
+  /* PC向けの設定 */
+  @media screen and (min-width: 601px) {
+    .layer-txt{
+      font-size: 2rem;
+      padding: 8rem 0;
+    }
+  }
