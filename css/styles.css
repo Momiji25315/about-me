@@ -41,10 +41,16 @@ body{
 .context h1{
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
+.context h2{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: " Gothic One", sans-serif;
+}
 
 .area{
     background: #5f5858;  
