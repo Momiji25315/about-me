@@ -13,6 +13,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 75px;
     font-family: "Dela Gothic One", sans-serif;
+    font-weight:100;
 }
 
 .context {
@@ -111,6 +112,8 @@ li {
     background-color: #c7b24a;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
     }
 
  .ie {
@@ -118,6 +121,8 @@ li {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
     }
 
 .okamoto {
@@ -125,6 +130,8 @@ li {
     margin: 0 auto;
     margin-top: 50px;
      margin-bottom: 50px;
+     margin-right: 20%;
+     margin-left: 20%;
      }
 
 .yume {
@@ -132,6 +139,8 @@ li {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
     }
 
 .tokyo {
@@ -139,4 +148,6 @@ li {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
     }

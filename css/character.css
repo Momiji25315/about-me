@@ -14,6 +14,7 @@ body {
     color: #fff;
     font-size: 75px;
     font-family: "Dela Gothic One", sans-serif;
+    font-weight:100;
 }
 
 .context {
@@ -79,6 +80,12 @@ li {
     height: 345px;
 }
 
+.hatune{
+    margin: auto;
+    width: 550px;
+    height: 345px;
+}
+
 .temari{
     margin: auto;
     width: 550px;
@@ -103,10 +110,34 @@ li {
     height: 300px;
 }
 
+.mana{
+    margin: auto;
+    width: 550px;
+    height: 300px;
+}
+
 .kazusa{
     margin: auto;
     width: 300px;
     height: 425px;
+}
+
+.yuki{
+    margin: auto;
+    width: 550px;
+    height: 300px;
+}
+
+.arisa{
+    margin: auto;
+    width: 550px;
+    height: 300px;
+}
+
+.rubi{
+    margin: auto;
+    width: 550px;
+    height: 300px;
 }
 
 .burori{
@@ -114,11 +145,10 @@ li {
     width: 300px;
     height: 425px;
 }
-
-.mana{
+.goji-ta{
     margin: auto;
-    width: 550px;
-    height: 300px;
+    width: 300px;
+    height: 425px;
 }
 
 .back a{
@@ -138,6 +168,8 @@ background-color: #DDAACC;
 margin: 0 auto;
 margin-top: 50px;
 margin-bottom: 50px;
+margin-right: 20%;
+margin-left: 20%;
 }
 
 .sinonome {
@@ -145,6 +177,17 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.bibibasu {
+    background-color: #00bb9c;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .tukimura {
@@ -152,6 +195,8 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .hujita {
@@ -159,6 +204,8 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .samu {
@@ -166,6 +213,8 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .tao {
@@ -173,13 +222,8 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.kyouyama {
-    background-color: #cd67cb;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .nekomiya {
@@ -187,6 +231,44 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.kyouyama {
+    background-color: #cd67cb;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.suou {
+    background-color: #ef9e42;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.a-rya {
+    background-color: #c899f5;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.hosino {
+    background-color: #ff3c73;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .akuma {
@@ -194,4 +276,15 @@ margin-bottom: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.fyu-jyon {
+    background-color: #34b9fc;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
