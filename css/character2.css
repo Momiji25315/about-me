@@ -67,61 +67,6 @@ li {
     list-style-type: none;
 }
 
-
-.mizuki {
-    margin: auto;
-    width: 550px;
-    height: 345px;
-}
-
-.ena{
-    margin: auto;
-    width: 550px;
-    height: 345px;
-}
-
-.hatune{
-    margin: auto;
-    width: 550px;
-    height: 345px;
-}
-
-.temari{
-    margin: auto;
-    width: 550px;
-    height: 300px;
-}
-
-.kotone{
-    margin: auto;
-    width: 550px;
-    height: 300px;
-}
-
-.hotaru{
-    margin: auto;
-    width: 550px;
-    height: 300px;
-}
-
-.hu{
-    margin: auto;
-    width: 300px;
-    height: 300px;
-}
-
-.mana{
-    margin: auto;
-    width: 550px;
-    height: 300px;
-}
-
-.kazusa{
-    margin: auto;
-    width: 300px;
-    height: 425px;
-}
-
 .yuki{
     margin: auto;
     width: 550px;
@@ -180,88 +125,6 @@ li {
      color: rgb(33, 33, 33);
  }
 
-
-.akiyama {
-background-color: #DDAACC;
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 50px;
-margin-right: 20%;
-margin-left: 20%;
-}
-
-.sinonome {
-    background-color: #CCAA88;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.bibibasu {
-    background-color: #00bb9c;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.tukimura {
-    background-color: #0c7bbb;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.hujita {
-    background-color: #f8c112;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.samu {
-    background-color: #acd864;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.tao {
-    background-color: #f16236;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.nekomiya {
-    background-color: #d80d0d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.kyouyama {
-    background-color: #cd67cb;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
 .suou {
     background-color: #ef9e42;
     margin: 0 auto;
@@ -299,7 +162,7 @@ margin-left: 20%;
 }
 
 .fyu-jyon {
-    background-color: #34b9fc;
+    background-color: #f0d75d;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;

@@ -1,29 +1,16 @@
 body {
     background-color: #5f5858;
-    display: grid;
-    grid-template-rows: 1fr auto;
-}
-
-footer {
-    bottom: 0;
-    width: 100%;
-    background-color: #5f5858;
-    color: #fff;
-    padding: 20px;
-    font-family: "Dela Gothic One", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
 }
 
 .context {
-    text-align: center;
     width: 100%;
     position: absolute;
     top: 100px;
+    
 }
 
 .context h1{ 
+    text-align: center;
     color: #fff;
     font-size: 75px;
     font-family: "Dela Gothic One", sans-serif;
@@ -38,6 +25,7 @@ footer {
 }
 
 .context p{
+    text-align: center;
     color: #fff;
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
@@ -53,8 +41,11 @@ footer {
     }
 }
 
-.context {
+div {
     text-align: center;
+}
+
+.context {
     width: 100%;
     position: absolute;
     top: 100px;
@@ -76,52 +67,28 @@ li {
     list-style-type: none;
 }
 
-
-.mizuki {
-    margin: auto;
-    width: 550px;
-    height: 345px;
-}
-
-.ena{
-    margin: auto;
-    width: 550px;
-    height: 345px;
-}
-
-.hatune{
-    margin: auto;
-    width: 550px;
-    height: 345px;
-}
-
-.temari{
+.hotaru{
     margin: auto;
     width: 550px;
     height: 300px;
 }
 
-.kotone{
-    margin: auto;
-    width: 550px;
-    height: 300px;
-}
-
-.kazusa{
+.hu{
     margin: auto;
     width: 300px;
-    height: 425px;
+    height: 300px;
 }
 
-.kisaki{
+.jyo{
     margin: auto;
-    width: 200px;
-    height: 425px;
+    width: 550px;
+    height: 300px;
 }
 
-.back{
-    margin-top: 25px;
-    text-align: center;
+.mana{
+    margin: auto;
+    width: 550px;
+    height: 300px;
 }
 
 .back a{
@@ -130,40 +97,31 @@ li {
     color: #fff;
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
-    text-decoration: none;
 }
 
 .back a:hover {
     color: rgb(33, 33, 33);
 }
 
+.tugi{
+    margin-bottom: 50px;
+}
+
 .tugi a{
-    margin: 25px;
     padding-bottom: 100px;
+     text-align: center;
      color: #fff;
      font-size: 50px;
      font-family: "Dela Gothic One", sans-serif;
      text-decoration: none;
-
  }
  
  .tugi a:hover {
      color: rgb(33, 33, 33);
  }
 
-
-
-.akiyama {
-background-color: #DDAACC;
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 50px;
-margin-right: 20%;
-margin-left: 20%;
-}
-
-.sinonome {
-    background-color: #CCAA88;
+.samu {
+    background-color: #acd864;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -171,8 +129,8 @@ margin-left: 20%;
     margin-left: 20%;
 }
 
-.bibibasu {
-    background-color: #00bb9c;
+.tao {
+    background-color: #f16236;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -180,8 +138,8 @@ margin-left: 20%;
     margin-left: 20%;
 }
 
-.tukimura {
-    background-color: #0c7bbb;
+.eren {
+    background-color: #ff377d;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -189,8 +147,8 @@ margin-left: 20%;
     margin-left: 20%;
 }
 
-.hujita {
-    background-color: #f8c112;
+.nekomiya {
+    background-color: #d80d0d;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -198,20 +156,3 @@ margin-left: 20%;
     margin-left: 20%;
 }
 
-.kyouyama {
-    background-color: #cd67cb;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.ryugeki {
-    background-color: #383838;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
