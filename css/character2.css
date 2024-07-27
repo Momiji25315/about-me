@@ -67,6 +67,30 @@ li {
     list-style-type: none;
 }
 
+.hotaru{
+    margin: auto;
+    width: 550px;
+    height: 300px;
+}
+
+.hu{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.jyo{
+    margin: auto;
+    width: 550px;
+    height: 300px;
+}
+
+.mana{
+    margin: auto;
+    width: 550px;
+    height: 300px;
+}
+
 .yuki{
     margin: auto;
     width: 550px;
@@ -124,6 +148,42 @@ li {
  .tugi a:hover {
      color: rgb(33, 33, 33);
  }
+
+ .samu {
+    background-color: #acd864;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.tao {
+    background-color: #f16236;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.eren {
+    background-color: #ff377d;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.nekomiya {
+    background-color: #d80d0d;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
 
 .suou {
     background-color: #ef9e42;
