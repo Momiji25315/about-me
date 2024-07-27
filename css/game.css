@@ -2,6 +2,18 @@ body {
     background-color: #5f5858;
 }
 
+
+footer {
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .context {
     width: 100%;
     position: absolute;
