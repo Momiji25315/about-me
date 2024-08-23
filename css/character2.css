@@ -85,12 +85,6 @@ li {
     height: 300px;
 }
 
-.mana{
-    margin: auto;
-    width: 550px;
-    height: 300px;
-}
-
 .yuki{
     margin: auto;
     width: 550px;
@@ -169,15 +163,6 @@ li {
 
 .eren {
     background-color: #ff377d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.nekomiya {
-    background-color: #d80d0d;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
