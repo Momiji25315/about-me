@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 body {
     background-color: #5f5858;
 }
@@ -104,7 +105,7 @@ li {
 }
 
 .back a:hover {
-    color: #807d7d;
+    color: rgb(33, 33, 33);
 }
 
 .menya {

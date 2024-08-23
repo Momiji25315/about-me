@@ -1,37 +1,74 @@
-/* 大枠ボックス */
-.layer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5f5858;
+    
+    
+}
+.container {
+    width: 80%;
+    max-width: 800px;
     margin: 0 auto;
-  }
-  
-  /* 背景画像の読み込み */
-  .layer-bg{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-8xk3SH4pMPzXu29hDnD5-idsh6jYr1iRg&s) no-repeat 0 0;
-    background-size: 100%;
-  }
-  
-  /* 重ねる文字の基本設定 */
-  .layer-txt{
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
-    color: #fff;
-    letter-spacing: 0.4rem;
-  }
-  
-  /* SP向けの設定 */
-  @media screen and (max-width: 600px) {
-    .layer-txt{
-     font-size: 1.4rem;
-     padding: 4rem 0;
-    }
-  }
-  
-  /* PC向けの設定 */
-  @media screen and (min-width: 601px) {
-    .layer-txt{
-      font-size: 2rem;
-      padding: 8rem 0;
-    }
-  }
+    padding: 20px;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-weight:100;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 40px;
+    margin: 10px 0 5px;
+    font-weight:100;
+    color: #ffffff;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+textarea {
+    resize: vertical;
+}
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.back{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.back a{
+  padding-bottom: 100px;
+   text-align: center;
+   color: #b7f7f1;
+   font-size: 50px;
+   font-family: "Dela Gothic One", sans-serif;
+   text-decoration: none;
+}
+
+.back a:hover {
+    color: rgb(33, 33, 33);
+}
