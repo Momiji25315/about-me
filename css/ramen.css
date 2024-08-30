@@ -19,19 +19,14 @@ body {
 
 .context p{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: 
+    rgb(255, 255, 255);
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
-    .context h1 {
-        font-size: 40px;
-    }
-    
-    .context p {
-        font-size: 30px;
-    }
+
 }
 
 div {
@@ -60,6 +55,18 @@ li {
     list-style-type: none;
 }
 
+.time p {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+
+footer{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
 .syouryu {
     max-width: 550px;
     max-height: 500px;

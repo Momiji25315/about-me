@@ -1,8 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
 body {
     background-color: #5f5858;
     display: grid;
     grid-template-rows: 1fr auto;
+    margin: 0;
+}
+
+#mainnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* 背景色はお好みで */
+    color: white; /* テキストの色 */
+    padding: 10px 0; /* 上下のパディング */
+    text-align: center; /* 中央寄せ */
+    z-index: 1000; /* 他の要素の上に表示 */
+    font-size: 30px;
+}
+
+/* ナビゲーションリンクのスタイル */
+#mainnav a {
+    color: white; /* リンクの色 */
+    text-decoration: none; /* 下線を消す */
+    margin: 0 15px; /* リンクの左右のマージン */
+    font-family: 'Dela Gothic One', sans-serif; /* フォントファミリー */
+}
+
+/* ホバー時のスタイル */
+#mainnav a:hover {
+    text-decoration: underline; /* ホバー時の下線 */
 }
 
 footer {
@@ -13,59 +41,40 @@ footer {
     font-family: "Dela Gothic One", sans-serif;
     font-size: 20px;
     text-align: center;
-    text-decoration: none;
 }
 
 .context {
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 100px;
 }
 
-.context h1{ 
+.context h1 {
     color: #fff;
-    font-size: 75px;
+    font-size: 45px;
     font-family: "Dela Gothic One", sans-serif;
-    font-weight:100;
+    font-weight: 100;
 }
 
-.context {
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
+.context h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
 }
 
-.context p{
+.context p {
     color: #fff;
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-    .context h1 {
-        font-size: 40px;
-    }
-    
-    .context p {
-        font-size: 30px;
-    }
-}
-
-.context {
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
-}
-
-.context a{
-    text-align: center;
+.context a {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Dela Gothic One", sans-serif;
+    text-decoration: none;
 }
 
 .context a:hover {
@@ -76,94 +85,53 @@ li {
     list-style-type: none;
 }
 
-
-.mizuki {
+img {
+    display: block;
     margin: auto;
+}
+
+.mizuki, .ena, .hatune {
     max-width: 550px;
     max-height: 345px;
 }
 
-.ena{
-    margin: auto;
-    max-width: 550px;
-    max-height: 345px;
-}
-
-.hatune{
-    margin: auto;
-    max-width: 550px;
-    max-height: 345px;
-}
-
-.temari{
-    margin: auto;
+.temari, .kotone {
     max-width: 550px;
     max-height: 300px;
 }
 
-.kotone{
-    margin: auto;
-    max-width: 550px;
-    max-height: 300px;
-}
-
-.kazusa{
-    margin: auto;
+.kazusa {
     max-width: 300px;
     max-height: 425px;
 }
 
-.kisaki{
-    margin: auto;
+.kisaki {
     max-width: 200px;
     max-height: 425px;
 }
 
-.back{
+.back {
     margin-top: 25px;
     text-align: center;
 }
 
-.back a{
-   padding-bottom: 100px;
-    text-align: center;
+.back a, .tugi a {
     color: #a99062;
     font-size: 50px;
     font-family: "Dela Gothic One", sans-serif;
     text-decoration: none;
 }
 
-.back a:hover {
+.back a:hover, .tugi a:hover {
     color: rgb(33, 33, 33);
 }
 
-.tugi a{
+.tugi a {
     margin: 25px;
-    padding-bottom: 100px;
-    color: #a99062;
-     font-size: 50px;
-     font-family: "Dela Gothic One", sans-serif;
-     text-decoration: none;
-
- }
- 
- .tugi a:hover {
-    color: rgb(33, 33, 33);
- }
-
-
-
-.akiyama {
-background-color: #DDAACC;
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 50px;
-margin-right: 20%;
-margin-left: 20%;
 }
 
-.sinonome {
-    background-color: #CCAA88;
+.akiyama, .sinonome, .bibibasu, .tukimura, .hujita, .kyouyama, .ryugeki {
+    background-color: #ddd;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -171,47 +139,20 @@ margin-left: 20%;
     margin-left: 20%;
 }
 
-.bibibasu {
-    background-color: #00bb9c;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
+.akiyama { background-color: #DDAACC; }
+.sinonome { background-color: #CCAA88; }
+.bibibasu { background-color: #00bb9c; }
+.tukimura { background-color: #0c7bbb; }
+.hujita { background-color: #f8c112; }
+.kyouyama { background-color: #cd67cb; }
+.ryugeki { background-color: #383838; }
 
-.tukimura {
-    background-color: #0c7bbb;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
+@media screen and (max-width: 768px) {
+    .context h1 {
+        font-size: 40px;
+    }
 
-.hujita {
-    background-color: #f8c112;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.kyouyama {
-    background-color: #cd67cb;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.ryugeki {
-    background-color: #383838;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+    .context p {
+        font-size: 30px;
+    }
 }
