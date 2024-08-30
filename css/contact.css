@@ -4,9 +4,21 @@ body {
     margin: 0;
     padding: 0;
     background-color: #5f5858;
-    
-    
 }
+
+footer{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
 .container {
     width: 80%;
     max-width: 800px;

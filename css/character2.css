@@ -96,18 +96,6 @@ li {
     max-height: 300px;
 }
 
-.yuki{
-    margin: auto;
-    max-width: 550px;
-    max-height: 300px;
-}
-
-.arisa{
-    margin: auto;
-    max-width: 550px;
-    max-height: 300px;
-}
-
 .rubi{
     margin: auto;
     max-width: 550px;
@@ -179,24 +167,6 @@ li {
 
 .eren {
     background-color: #ff377d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.suou {
-    background-color: #ef9e42;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.a-rya {
-    background-color: #c899f5;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
