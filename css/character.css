@@ -66,7 +66,7 @@ footer {
 
 .context p {
     color: #fff;
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
@@ -110,19 +110,14 @@ img {
     max-height: 425px;
 }
 
-.back {
-    margin-top: 25px;
-    text-align: center;
-}
-
-.back a, .tugi a {
+.tugi a {
     color: #a99062;
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Dela Gothic One", sans-serif;
     text-decoration: none;
 }
 
-.back a:hover, .tugi a:hover {
+.tugi a:hover {
     color: rgb(33, 33, 33);
 }
 
@@ -148,11 +143,4 @@ img {
 .ryugeki { background-color: #383838; }
 
 @media screen and (max-width: 768px) {
-    .context h1 {
-        font-size: 40px;
-    }
-
-    .context p {
-        font-size: 30px;
-    }
 }

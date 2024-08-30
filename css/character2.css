@@ -1,73 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
 body {
     background-color: #5f5858;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin: 0;
+}
+
+#mainnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+#mainnav a {
+    color: white;
+        font-family: "Dela Gothic One", sans-serif;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
 }
 
 footer {
     bottom: 0;
     width: 100%;
+    color: #fff;
     padding: 20px;
     font-family: "Dela Gothic One", sans-serif;
     font-size: 20px;
     text-align: center;
-    text-decoration: none;
 }
 
 .context {
+    text-align: center;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 100px;
-    
 }
 
-.context h1{ 
-    text-align: center;
+.context h1 {
     color: #fff;
-    font-size: 75px;
+    font-size: 45px;
     font-family: "Dela Gothic One", sans-serif;
-    font-weight:100;
+    font-weight: 100;
 }
 
-.context {
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
-}
-
-.context p{
-    text-align: center;
+.context h2 {
     color: #fff;
-    font-size: 50px;
+    font-size: 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
+}
+
+.context p {
+    color: #fff;
+    font-size: 30px;
     font-family: "Dela Gothic One", sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-    .context h1 {
-        font-size: 40px;
-    }
-    
-    .context p {
-        font-size: 30px;
-    }
-}
-
-div {
-    text-align: center;
-}
-
-.context {
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
-}
-
-.context a{
-    text-align: center;
+.context a {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Dela Gothic One", sans-serif;
+    text-decoration: none;
 }
 
 .context a:hover {
@@ -78,125 +83,54 @@ li {
     list-style-type: none;
 }
 
-.hotaru{
+img {
+    display: block;
     margin: auto;
+}
+
+.hotaru, .jyo, .rubi {
     max-width: 550px;
     max-height: 300px;
 }
 
-.hu{
-    margin: auto;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-.jyo{
-    margin: auto;
-    max-width: 550px;
-    max-height: 300px;
-}
-
-.rubi{
-    margin: auto;
-    max-width: 550px;
-    max-height: 300px;
-}
-
-.burori{
-    margin: auto;
-    max-width: 300px;
-    max-height: 425px;
-}
-.goji-ta{
-    margin: auto;
+.hu, .burori, .goji-ta {
     max-width: 300px;
     max-height: 425px;
 }
 
-.back{
-    margin-top: 25px;
-    text-align: center;
-}
-
-.back a{
-   padding-bottom: 100px;
-    text-align: center;
+.tugi a {
     color: #a99062;
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Dela Gothic One", sans-serif;
+    text-decoration: none;
 }
 
-.back a:hover {
+.tugi a:hover {
     color: rgb(33, 33, 33);
 }
 
-.tugi{
-    margin-bottom: 50px;
+.tugi {
+    margin: 25px ;
 }
 
-.tugi a{
-    padding-bottom: 100px;
-     text-align: center;
-     color: #a99062;
-     font-size: 50px;
-     font-family: "Dela Gothic One", sans-serif;
-     text-decoration: none;
- }
- 
- .tugi a:hover {
-    color: rgb(33, 33, 33);
- }
-
- .samu {
-    background-color: #acd864;
-    margin: 0 auto;
+.samu, .tao, .eren, .hosino, .akuma, .fyu-jyon {
+    background-color: #ddd;
+    margin: 50px auto;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 20%;
     margin-left: 20%;
 }
 
-.tao {
-    background-color: #f16236;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+.samu { background-color: #acd864; }
+.tao { background-color: #f16236; }
+.eren { background-color: #ff377d; }
+.hosino { background-color: #ff3c73; }
+.akuma { background-color: #93bb49; }
+.fyu-jyon { background-color: #f0d75d; }
+
+@media screen and (max-width: 768px) {
 }
 
-.eren {
-    background-color: #ff377d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
 
-.hosino {
-    background-color: #ff3c73;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
 
-.akuma {
-    background-color: #93bb49;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.fyu-jyon {
-    background-color: #f0d75d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
