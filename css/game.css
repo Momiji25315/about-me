@@ -1,182 +1,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
 body {
     background-color: #5f5858;
+    margin: 0;
+    font-family: 'Dela Gothic One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-footer {
-    bottom: 0;
+#mainnav {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    color: #fff;
-    padding: 20px;
-    font-family: "Dela Gothic One", sans-serif;
-    font-size: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
     text-align: center;
+    z-index: 1000;
+    font-size: 24px;
+}
+
+#mainnav a {
+    color: white;
     text-decoration: none;
+    margin: 0 15px;
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
 }
 
 .context {
+    text-align: center;
     width: 100%;
-    position: absolute;
-    top: 100px;
-    
+    padding-top: 70px;
 }
 
-.context h1{
-    text-align: center;
+.context h1 {
     color: #fff;
-    font-size: 75px;
-    font-family: "Dela Gothic One", sans-serif;
-    font-weight:100;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 30px;
 }
 
-.context {
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
-}
-
-.context p{
-    text-align: center;
+.context h2 {
     color: #fff;
-    font-size: 50px;
-    font-family: "Dela Gothic One", sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 100;
 }
 
-@media screen and (max-width: 768px) {
-    .context h1 {
-        font-size: 40px;
-    }
-    
-    .context p {
-        font-size: 30px;
-    }
-}
-
-div {
-    text-align: center;
-}
-
-.context {
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
-}
-
-.context a{
-    text-align: center;
+.context p {
     color: #fff;
-    font-size: 40px;
-    font-family: "Dela Gothic One", sans-serif;
+    font-size: 30px;
+}
+
+.context a {
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .context a:hover {
     color: rgb(105, 105, 105);
 }
 
-li {
-    list-style-type: none;
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-.gakumasu {
-    max-width: 550px;
-    max-height: 400px;
-    margin: 0 auto;
+.gakuen, .housuta, .zenless, .z, .sutoraiku, .miku {
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
 }
 
-.houkai{
-    max-width: 550px;
-    max-height: 300px;
-    margin: 0 auto;
-}
+.gakuen { background-color: #fa900d; }
+.housuta { background-color: #17153d; }
+.zenless { background-color: #ff6c1e; }
+.z { background-color: #ff9900; }
+.sutoraiku { background-color: #f41d1d; }
+.miku { background-color: #490079; }
 
-.zenzero{
-    max-width: 550px;
-    max-height: 300px;
-    margin: 0 auto;
-}
-
-.dokkan{
-    max-width: 300px;
-    max-height: 300px;
-    margin: 0 auto;
-}
-
-.monsuto{
-    max-width: 550px;
-    max-height: 400px;
-    margin: 0 auto;
-}
-
-.puroseka{
-    max-width: 550px;
-    max-height: 375px;
-    margin: 0 auto;
-}
-
-.back a{
-    text-align: center;
-    color: #a99062;
-    font-size: 50px;
-    font-family: "Dela Gothic One", sans-serif;
-}
-
-.back a:hover {
-    color: rgb(33, 33, 33);
-}
-
- .gakuen {
-    background-color: #fa900d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+@media screen and (max-width: 768px) {
+    #mainnav {
+        font-size: 18px;
     }
-    
-.housuta {
-    background-color: #17153d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
 
-.zenless {
-    background-color: #ff6c1e;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-    
-.z {
-    background-color: #ff9900;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-    
-.sutoraiku {
-    background-color: #f41d1d;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-    
-.miku {
-    background-color: #490079;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+    .context h1 {
+        font-size: 24px;
+    }
+
+    .context h2 {
+        font-size: 20px;
+    }
+
+    .context p, .context a, footer {
+        font-size: 16px;
+    }
+
+    .gakuen, .housuta, .zenless, .z, .sutoraiku, .miku {
+        width: 90%;
+    }
+
+    .back a {
+        font-size: 18px;
+    }
 }

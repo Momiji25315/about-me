@@ -10,14 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>好きなラーメン紹介ページ</title>
     <link rel="stylesheet" href="css/ramen.css">
-    <script src="js/Top.js" defer></script>
+    <script src="js/Ramen.js" defer></script>
 </head>
 <body>
-    <div class="back">
-        <a href="Top.html">
-            Homeへ戻る
-        </a>
-    </div>
+    <nav id="mainnav">
+        <a href="Top.html">Top</a>
+        <a href="contact.html">Contact</a>
+        <a href="Game.html">Game</a>
+        <a href="character.html">Character</a>
+    </nav>
     <div class="context">
     <h1>好きなラーメン一覧</br>（2024年7月時点）</h1>
 
@@ -62,15 +63,9 @@
     </div>
     
     <footer>
-    <div class="back">
-        <a href="Top.html">
-            Homeへ戻る
-        </a>
-    </div>
     <div class="time">
     <p>現在の日時は、</p>
-    <span id="view_clock"></span>
-    <p>です。</p>
+    <p><span id="view_clock"></span></p>
     </div>
     </footer>
 </div>

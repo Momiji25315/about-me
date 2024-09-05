@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contact.css">
-    <script src="js/Top.js" defer></script>
-    <script src="js/Top.js" defer></script>
+    <script src="js/contact.js" defer></script>
     <title>お問い合わせ</title>
 </head>
 <body>
     <div class="container">
-        <div class="back">
-            <a href="Top.html">
-                Homeへ戻る
-            </a>
-        </div>
+        <nav id="mainnav">
+            <a href="Top.html">Top</a>
+            <a href="Game.html">Game</a>
+            <a href="character.html">Character</a>
+            <a href="Ramen.html">Ramen</a>
+        </nav>
         <h1>お問い合わせ</h1>
         <form action="送信先のURL" method="post">
             <label for="name">お名前</label>
@@ -31,9 +31,9 @@
 
             <button type="submit" class="submit-button">送信</button>
         </form>
-        <p>現在の日時は、</p>
-        <footer><span id="view_clock"></span></footer>
-        <p>です。</p>
-    </div>
+    </div>        
+    <p>現在の日時は、</p>
+    <p><span id="view_clock"></span></p>
+
 </body>
 </html>

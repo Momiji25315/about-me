@@ -2,9 +2,11 @@
 
 body {
     background-color: #5f5858;
-    display: grid;
-    grid-template-rows: 1fr auto;
     margin: 0;
+    font-family: 'Dela Gothic One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #mainnav {
@@ -17,12 +19,11 @@ body {
     padding: 10px 0;
     text-align: center;
     z-index: 1000;
-    font-size: 30px;
+    font-size: 24px; /* PCとスマホで見やすいサイズに調整 */
 }
 
 #mainnav a {
     color: white;
-        font-family: "Dela Gothic One", sans-serif;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -31,47 +32,34 @@ body {
     text-decoration: underline;
 }
 
-footer {
-    bottom: 0;
-    width: 100%;
-    color: #fff;
-    padding: 20px;
-    font-family: "Dela Gothic One", sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
 .context {
     text-align: center;
     width: 100%;
-    position: relative;
-    top: 100px;
+    padding-top: 70px; /* ナビゲーションが固定されているため */
 }
 
 .context h1 {
     color: #fff;
-    font-size: 45px;
-    font-family: "Dela Gothic One", sans-serif;
+    font-size: 32px;
     font-weight: 100;
+    margin-bottom: 30px;
 }
 
 .context h2 {
     color: #fff;
     font-size: 30px;
-    font-family: "Dela Gothic One", sans-serif;
+    margin-bottom: 15px;
     font-weight: 100;
 }
 
 .context p {
     color: #fff;
     font-size: 30px;
-    font-family: "Dela Gothic One", sans-serif;
 }
 
 .context a {
     color: #ffffff;
     font-size: 30px;
-    font-family: "Dela Gothic One", sans-serif;
     text-decoration: none;
 }
 
@@ -79,29 +67,39 @@ footer {
     color: rgb(105, 105, 105);
 }
 
-li {
-    list-style-type: none;
-}
-
 img {
     display: block;
     margin: auto;
+    max-width: 100%; /* 画像のサイズが画面幅を超えないように調整 */
+    height: auto;
 }
 
-.hotaru, .jyo, .rubi {
-    max-width: 550px;
-    max-height: 300px;
+.samu, .tao, .syuen, .hosino, .akuma, .fyu-jyon {
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
 }
 
-.hu, .burori, .goji-ta {
-    max-width: 300px;
-    max-height: 425px;
+.samu { background-color: #acd864; }
+.tao { background-color: #f16236; }
+.syuen { background-color: #24b1b1; }
+.hosino { background-color: #ff3c73; }
+.akuma { background-color: #93bb49; }
+.fyu-jyon { background-color: #f0d75d; }
+
+footer {
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .tugi a {
     color: #a99062;
     font-size: 30px;
-    font-family: "Dela Gothic One", sans-serif;
     text-decoration: none;
 }
 
@@ -109,28 +107,33 @@ img {
     color: rgb(33, 33, 33);
 }
 
-.tugi {
-    margin: 25px ;
-}
-
-.samu, .tao, .eren, .hosino, .akuma, .fyu-jyon {
-    background-color: #ddd;
-    margin: 50px auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.samu { background-color: #acd864; }
-.tao { background-color: #f16236; }
-.eren { background-color: #ff377d; }
-.hosino { background-color: #ff3c73; }
-.akuma { background-color: #93bb49; }
-.fyu-jyon { background-color: #f0d75d; }
-
+/* スマートフォン用のスタイル調整 */
 @media screen and (max-width: 768px) {
+    #mainnav {
+        font-size: 18px;
+    }
+
+    .context h1 {
+        font-size: 24px;
+    }
+
+    .context h2 {
+        font-size: 20px;
+    }
+
+    .context p, .context a, footer {
+        font-size: 16px;
+    }
+
+    .samu, .tao, .syuen, .hosino, .akuma, .fyu-jyon {
+        width: 90%; /* より狭い画面幅に対応 */
+    }
+
+    .tugi a {
+        font-size: 18px;
+    }
 }
+
 
 
 

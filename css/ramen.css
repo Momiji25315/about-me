@@ -1,154 +1,127 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
 body {
     background-color: #5f5858;
+    margin: 0;
+    font-family: 'Dela Gothic One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    font-size: 24px;
+}
+
+#mainnav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
 }
 
 .context {
+    text-align: center;
     width: 100%;
-    position: absolute;
-    top: 100px;
+    padding-top: 70px;
 }
 
-.context h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 75px;
-    font-family: "Dela Gothic One", sans-serif;
-    font-weight:100;
+.context h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 30px;
 }
 
-.context p{
-    text-align: center;
-    color: 
-    rgb(255, 255, 255);
-    font-size: 50px;
-    font-family: "Dela Gothic One", sans-serif;
+.context p {
+    color: #fff;
+    font-size: 30px;
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
-div {
-    text-align: center;
-}
-
-.context {
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    
-}
-
-.context a{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-family: "Dela Gothic One", sans-serif;
+.context a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .context a:hover {
     color: #807d7d;
 }
 
-li {
-    list-style-type: none;
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.syouryu, .ikkonya, .tanmen, .mugen, .kaminari, .menya, .ie, .okamoto, .yume, .tokyo {
+    background-color: #c7b24a;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .time p {
     color: #fff;
     font-size: 30px;
-    font-family: "Dela Gothic One", sans-serif;
 }
 
-
-footer{
-    color: #fff;
+.back {
+    margin-top: 25px;
     text-align: center;
-    font-size: 30px;
-}
-.syouryu {
-    max-width: 550px;
-    max-height: 500px;
-    margin: 0 auto;
 }
 
-.ikkonya{
-    max-width: 550px;
-    max-height: 300px;
-    margin: 0 auto;
-}
-
-.tanmen{
-    max-width: 550px;
-    max-height: 500px;
-    margin: 0 auto;
-}
-
-.mugen{
-    max-width: 550px;
-    max-height: 400px;
-    margin: 0 auto;
-}
-
-.kaminari{
-    max-width: 550px;
-    max-height: 400px;
-    margin: 0 auto;
-}
-
-.back a{
-    text-align: center;
+.back a {
     color: #a99062;
-    font-size: 50px;
-    font-family: "Dela Gothic One", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .back a:hover {
     color: rgb(33, 33, 33);
 }
 
-.menya {
-    margin: 0 auto;
-    background-color: #c7b24a;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+/* スマートフォン用のスタイル調整 */
+@media screen and (max-width: 768px) {
+    #mainnav {
+        font-size: 18px;
     }
 
- .ie {
-    background-color: #c7b24a;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+    .context h1 {
+        font-size: 24px;
     }
 
-.okamoto {
-    background-color: #c7b24a;
-    margin: 0 auto;
-    margin-top: 50px;
-     margin-bottom: 50px;
-     margin-right: 20%;
-     margin-left: 20%;
-     }
-
-.yume {
-    background-color: #c7b24a;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+    .context p, .context a, footer {
+        font-size: 16px;
     }
 
-.tokyo {
-    background-color: #c7b24a;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20%;
-    margin-left: 20%;
+    .syouryu, .ikkonya, .tanmen, .mugen, .kaminari, .menya, .ie, .okamoto, .yume, .tokyo {
+        width: 90%;
     }
+
+    .back a {
+        font-size: 18px;
+    }
+}

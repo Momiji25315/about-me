@@ -17,6 +17,10 @@ body {
     font-family: "Dela Gothic One", sans-serif;
     text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 /* ナビゲーションバーのスタイル */
@@ -30,7 +34,7 @@ body {
     padding: 10px 0; /* 上下のパディング */
     text-align: center; /* 中央寄せ */
     z-index: 1000; /* 他の要素の上に表示 */
-    font-size: 30px;
+    font-size: 24px; /* PCとスマホで見やすいサイズに調整 */
 }
 
 /* ナビゲーションリンクのスタイル */
@@ -46,32 +50,36 @@ body {
     text-decoration: underline; /* ホバー時の下線 */
 }
 
-/* 他のスタイルがあればここに追加 */
-
 .context {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    padding: 20px;
+    max-width: 90%;
+    box-sizing: border-box;
+    z-index: 10; /* circlesの上に表示 */
 }
 
 .context h1, .context h2, .context p {
     font-family: "Dela Gothic One", sans-serif;
+    margin-bottom: 20px;
 }
 
 .context h1 {
-    font-size: 40px;
+    margin-top: 80px;
+    font-size: 34px;
     font-weight: 100;
 }
 
 .context h2 {
-    font-size: 35px;
+    font-size: 42px;
     font-weight: 100;
 }
 
 .context p {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .area {
@@ -81,6 +89,10 @@ body {
     height: 100vh;
     position: relative;
     overflow: hidden; /* Ensure circles stay within the area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
 .circles {
@@ -102,6 +114,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
+    z-index: -1;
 }
 
 .circles li:nth-child(1) {
@@ -192,15 +205,25 @@ body {
     }
 }
 
+/* スマートフォン用のスタイル調整 */
 @media screen and (max-width: 768px) {
+    #mainnav {
+        font-size: 18px;
+    }
+
     .context h1 {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .context h2 {
-        font-size: 16px;
+        font-size: 26px;
+    }
+
+    .context p {
+        font-size: 22px;
     }
 }
+
 
 
 
