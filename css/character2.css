@@ -82,6 +82,16 @@ img {
     width: 80%;
 }
 
+.hu{
+    height: 325px;
+    width: 325px;
+}
+
+.burori,.goji-ta{
+    height: 475px;
+    width: 325px;
+}
+
 .samu { background-color: #acd864; }
 .tao { background-color: #f16236; }
 .syuen { background-color: #24b1b1; }

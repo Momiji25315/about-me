@@ -82,6 +82,16 @@ img {
     width: 80%;
 }
 
+.kazusa{
+    width: 375px;
+    height: 500px;
+}
+
+.kisaki{
+    width: 250px;
+    height: 500px;
+}
+
 .akiyama { background-color: #DDAACC; }
 .sinonome { background-color: #CCAA88; }
 .bibibasu { background-color: #00bb9c; }
